@@ -79,4 +79,4 @@ The **Football Match Web Application** is designed for football enthusiasts who 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For any questions or support, please contact ["muhamedyildiriim@gmail.com"].
+For any questions or support, please contact [muhamedyildiriim@gmail.com].

@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Soccer Live Score</title>
+    <link rel="stylesheet" href="fixtures.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img class="header-logo" src="logo.png" alt="">
+            </a>
+        </div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <ul>
+                <li>
+                    <a href="" class="active">Fixture</a>
+                </li>
+                <li>
+                    <a href="standings.html">Standing</a>
+                </li>
+            </ul>
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+    </header>
+
+    <!-- Div For Fixture Table -->
+    <div class="container">
+        <h1 id="head_message">Günün Maçları</h1>
+        <hr>
+        <div id="matchTable" class="matches-table"></div>
+    </div>
+
+    <!-- Script -->
+    <script type="module" src="fixtures.js"></script>
+</body>
+
+</html>
